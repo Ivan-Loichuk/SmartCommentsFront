@@ -1,0 +1,8 @@
+/node_modules
+/app
+/src
+*.iml
+.idea/
+package-lock.json
+.history
+.editorconfig
