@@ -18,6 +18,13 @@
     font-weight: 800 !important;
   }
   
+  .navbar-nav .nav-link{
+    color: rgba(8, 8, 8, 1);
+    &:hover{
+        text-decoration: underline;
+        color: #094181;
+    }
+  }   
   .btn-xl {
     text-transform: uppercase;
     padding: 1.5rem 3rem;
@@ -34,6 +41,11 @@
     border-radius: 5rem;
   }
   
+  .navbar-brand{
+      img{
+        width: 30%;
+      }
+  }
   .navbar-custom {
     padding-top: 1rem;
     padding-bottom: 1rem;
