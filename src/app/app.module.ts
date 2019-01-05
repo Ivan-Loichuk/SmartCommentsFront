@@ -11,6 +11,8 @@ import { FiltersComponent } from './search/filters/filters.component';
 import { ResultsComponent } from './search/results/results.component';
 import { RatingStarsComponent } from './common/rating-stars/rating-stars.component';
 import { PaginationComponent } from './common/pagination/pagination.component';
+import { AccommodationComponent } from './accommodation/accommodation.component';
+import { BreadcrumbsComponent } from './common/breadcrumbs/breadcrumbs.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PaginationComponent } from './common/pagination/pagination.component';
     FiltersComponent,
     ResultsComponent,
     RatingStarsComponent,
-    PaginationComponent
+    PaginationComponent,
+    AccommodationComponent,
+    BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
