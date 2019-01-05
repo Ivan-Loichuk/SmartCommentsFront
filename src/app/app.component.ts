@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment as env } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ze-app';
+  public env = env;
+
+  
+  constructor(){
+
+    console.log(env);
+  }
 }

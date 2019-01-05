@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SearchComponent } from './search/search.component';
 import { FiltersComponent } from './search/filters/filters.component';
 import { ResultsComponent } from './search/results/results.component';
+import { RatingStarsComponent } from './common/rating-stars/rating-stars.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ResultsComponent } from './search/results/results.component';
     HomeComponent,
     SearchComponent,
     FiltersComponent,
-    ResultsComponent
+    ResultsComponent,
+    RatingStarsComponent
   ],
   imports: [
     BrowserModule,
