@@ -10,6 +10,7 @@ import { SearchComponent } from './search/search.component';
 import { FiltersComponent } from './search/filters/filters.component';
 import { ResultsComponent } from './search/results/results.component';
 import { RatingStarsComponent } from './common/rating-stars/rating-stars.component';
+import { PaginationComponent } from './common/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RatingStarsComponent } from './common/rating-stars/rating-stars.compone
     SearchComponent,
     FiltersComponent,
     ResultsComponent,
-    RatingStarsComponent
+    RatingStarsComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
