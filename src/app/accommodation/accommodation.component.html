@@ -1,3 +1,57 @@
-<p>
-  accommodation works!
-</p>
+<div class="container accommodation">
+  <div class="row">
+      <app-breadcrumbs></app-breadcrumbs>
+  </div>
+
+ <div class="row">
+    <div class="col-lg-9 col-xs-12">
+      <h1 class="accommodation-name"><strong>Willa Grand Karpatia</strong> <span class="accommodation-type">(Apartament)</span></h1>
+      
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.visitgeelongbellarine.com.au/media/1002/bayside-geelong.jpg?mode=crop&anchor=middlecenter&width=737&height=472&scale=both" alt="Los Angeles" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="http://coninst.co.uk/wp-content/uploads/2015/03/IMG_3891.jpg" alt="Chicago" width="1100" height="500"> 
+          </div>
+          <div class="carousel-item">
+            <img src="http://blink182-tickets.com/wp-content/uploads/2018/03/Suitable-Accommodation.jpg" alt="New York" width="1100" height="500">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-xs-12">
+      <div class="card contact-block">
+        <div class="card-block">
+          <b>Contacts:</b> <br />
+          Phone: +1 129 209 291<br />
+          E-mail: <a href="mailto:support@mysite.com">support@mysite.com</a><br />
+          <br /><br />
+          <b>Address:</b><br />
+          Company Inc, <br />
+          Las vegas street 201<br />
+          55001 Nevada, USA<br /> 
+        </div>
+      </div>
+      <div class="card rating-block">
+          <div class="card-block">
+              <b>Rating:  </b>
+              <span>9.8 / 10</span>
+              <app-rating-stars></app-rating-stars>
+          </div>
+      </div>
+    </div>
+ </div>
+</div>
