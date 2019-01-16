@@ -14,6 +14,7 @@ import { PaginationComponent } from './common/pagination/pagination.component';
 import { AccommodationComponent } from './accommodation/accommodation.component';
 import { BreadcrumbsComponent } from './common/breadcrumbs/breadcrumbs.component';
 import { ReviewsComponent } from './accommodation/reviews/reviews.component';
+import { RatingSummaryComponent } from './accommodation/rating-summary/rating-summary.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ReviewsComponent } from './accommodation/reviews/reviews.component';
     PaginationComponent,
     AccommodationComponent,
     BreadcrumbsComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    RatingSummaryComponent
   ],
   imports: [
     BrowserModule,

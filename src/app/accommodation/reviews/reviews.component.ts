@@ -12,4 +12,7 @@ export class ReviewsComponent implements OnInit {
   ngOnInit() {
   }
 
+  counter(i: number) {
+    return new Array(i);
+  } 
 }

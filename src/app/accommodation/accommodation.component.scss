@@ -35,3 +35,26 @@
     padding: 5px 15px;
     text-decoration: underline;
 }
+
+.description-block{
+    padding-top: 10px;
+}
+.header{
+    font-size: 24px;
+    color: #173d67;
+    font-weight: 700;
+    width: 80%;
+}
+.reviews-block{
+    .rh{
+       display: flex; 
+    }
+    a{
+        text-align: right;
+        width: 20%;
+    }
+}
+.add-review{
+    margin-top: 10px;
+    width: 100%;
+}

@@ -29,10 +29,16 @@ ul{
         display: flex;
         flex-flow: row nowrap;
         position: relative;
+
+        .rating-stars{
+            width: 30%;
+            text-align: right;
+        }
     
         .guide__user-comment__meta{
             height: 50px;
             margin-left: .7em;
+            width: 60%;
             ul{
                 list-style: none;
                 .meta-data{
