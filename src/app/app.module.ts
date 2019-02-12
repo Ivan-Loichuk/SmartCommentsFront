@@ -15,6 +15,7 @@ import { AccommodationComponent } from './accommodation/accommodation.component'
 import { BreadcrumbsComponent } from './common/breadcrumbs/breadcrumbs.component';
 import { ReviewsComponent } from './accommodation/reviews/reviews.component';
 import { RatingSummaryComponent } from './accommodation/rating-summary/rating-summary.component';
+import { ReviewsAllComponent } from './reviews-all/reviews-all.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RatingSummaryComponent } from './accommodation/rating-summary/rating-su
     AccommodationComponent,
     BreadcrumbsComponent,
     ReviewsComponent,
-    RatingSummaryComponent
+    RatingSummaryComponent,
+    ReviewsAllComponent
   ],
   imports: [
     BrowserModule,
