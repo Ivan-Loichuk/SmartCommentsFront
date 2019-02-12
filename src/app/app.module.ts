@@ -16,6 +16,7 @@ import { BreadcrumbsComponent } from './common/breadcrumbs/breadcrumbs.component
 import { ReviewsComponent } from './accommodation/reviews/reviews.component';
 import { RatingSummaryComponent } from './accommodation/rating-summary/rating-summary.component';
 import { ReviewsAllComponent } from './reviews-all/reviews-all.component';
+import { AuthorizationComponent } from './modal-windows/authorization/authorization.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ReviewsAllComponent } from './reviews-all/reviews-all.component';
     BreadcrumbsComponent,
     ReviewsComponent,
     RatingSummaryComponent,
-    ReviewsAllComponent
+    ReviewsAllComponent,
+    AuthorizationComponent
   ],
   imports: [
     BrowserModule,
