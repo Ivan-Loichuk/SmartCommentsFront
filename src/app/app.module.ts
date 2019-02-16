@@ -20,6 +20,9 @@ import { AuthorizationComponent } from './modal-windows/authorization/authorizat
 import { AddReviewComponent } from './modal-windows/add-review/add-review.component';
 import { AdminComponent } from './admin/admin.component';
 import { HeadComponent } from './admin/head/head.component';
+import { TopNavComponent } from './admin/partial/top-nav/top-nav.component';
+import { LeftNavComponent } from './admin/partial/left-nav/left-nav.component';
+import { AccommodationListComponent } from './admin/accommodation-list/accommodation-list.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,10 @@ import { HeadComponent } from './admin/head/head.component';
     AuthorizationComponent,
     AddReviewComponent,
     AdminComponent,
-    HeadComponent
+    HeadComponent,
+    TopNavComponent,
+    LeftNavComponent,
+    AccommodationListComponent
   ],
   imports: [
     BrowserModule,
