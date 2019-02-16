@@ -17,6 +17,7 @@ import { ReviewsComponent } from './accommodation/reviews/reviews.component';
 import { RatingSummaryComponent } from './accommodation/rating-summary/rating-summary.component';
 import { ReviewsAllComponent } from './reviews-all/reviews-all.component';
 import { AuthorizationComponent } from './modal-windows/authorization/authorization.component';
+import { AddReviewComponent } from './modal-windows/add-review/add-review.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AuthorizationComponent } from './modal-windows/authorization/authorizat
     ReviewsComponent,
     RatingSummaryComponent,
     ReviewsAllComponent,
-    AuthorizationComponent
+    AuthorizationComponent,
+    AddReviewComponent
   ],
   imports: [
     BrowserModule,
