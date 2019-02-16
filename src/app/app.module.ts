@@ -18,6 +18,8 @@ import { RatingSummaryComponent } from './accommodation/rating-summary/rating-su
 import { ReviewsAllComponent } from './reviews-all/reviews-all.component';
 import { AuthorizationComponent } from './modal-windows/authorization/authorization.component';
 import { AddReviewComponent } from './modal-windows/add-review/add-review.component';
+import { AdminComponent } from './admin/admin.component';
+import { HeadComponent } from './admin/head/head.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { AddReviewComponent } from './modal-windows/add-review/add-review.compon
     RatingSummaryComponent,
     ReviewsAllComponent,
     AuthorizationComponent,
-    AddReviewComponent
+    AddReviewComponent,
+    AdminComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule,
