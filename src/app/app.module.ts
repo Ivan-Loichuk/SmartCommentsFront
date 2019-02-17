@@ -23,6 +23,7 @@ import { HeadComponent } from './admin/head/head.component';
 import { TopNavComponent } from './admin/partial/top-nav/top-nav.component';
 import { LeftNavComponent } from './admin/partial/left-nav/left-nav.component';
 import { AccommodationListComponent } from './admin/accommodation-list/accommodation-list.component';
+import { AddAccommodationComponent } from './modal-windows/add-accommodation/add-accommodation.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { AccommodationListComponent } from './admin/accommodation-list/accommoda
     HeadComponent,
     TopNavComponent,
     LeftNavComponent,
-    AccommodationListComponent
+    AccommodationListComponent,
+    AddAccommodationComponent
   ],
   imports: [
     BrowserModule,

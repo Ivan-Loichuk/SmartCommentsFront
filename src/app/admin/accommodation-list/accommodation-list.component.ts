@@ -12,4 +12,7 @@ export class AccommodationListComponent implements OnInit {
   ngOnInit() {
   }
 
+  counter(i: number) {
+    return new Array(i);
+  } 
 }
