@@ -6,4 +6,15 @@
     <title>Smart Comments</title>
 
     <link rel="shortcut icon" href="images/favicon.png" />
-  </head>
+
+    <script type="text/javascript">
+      (function($) {
+        'use strict';
+        $(function() {
+          $('[data-toggle="offcanvas"]').on("click", function() {
+            $('.sidebar-offcanvas').toggleClass('active')
+          });
+        });
+      })(jQuery);
+    </script>
+</head>
