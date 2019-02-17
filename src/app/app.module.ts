@@ -19,7 +19,6 @@ import { ReviewsAllComponent } from './reviews-all/reviews-all.component';
 import { AuthorizationComponent } from './modal-windows/authorization/authorization.component';
 import { AddReviewComponent } from './modal-windows/add-review/add-review.component';
 import { AdminComponent } from './admin/admin.component';
-import { HeadComponent } from './admin/head/head.component';
 import { TopNavComponent } from './admin/partial/top-nav/top-nav.component';
 import { LeftNavComponent } from './admin/partial/left-nav/left-nav.component';
 import { AccommodationListComponent } from './admin/accommodation-list/accommodation-list.component';
@@ -46,7 +45,6 @@ import { LoginComponent } from './admin/login/login.component';
     AuthorizationComponent,
     AddReviewComponent,
     AdminComponent,
-    HeadComponent,
     TopNavComponent,
     LeftNavComponent,
     AccommodationListComponent,
