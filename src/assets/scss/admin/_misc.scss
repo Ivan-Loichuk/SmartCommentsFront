@@ -39,11 +39,14 @@ html {
   }
 }
 
-.content-wrapper {
-  background: $content-bg;
+.content-wrapper, .content-wrapper-dashboard {
+  //background: $content-bg;
   padding: 1.5rem 1.7rem;
   width: 100%;
   @include flex-grow(1);
+}
+.content-wrapper-dashboard{
+  background: $content-bg;
 }
 
 .container-scroller {

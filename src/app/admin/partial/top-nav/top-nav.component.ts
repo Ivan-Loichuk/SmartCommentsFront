@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-admin-top-nav',
@@ -12,4 +13,7 @@ export class TopNavComponent implements OnInit {
   ngOnInit() {
   }
 
+  toggleMenu(){
+    $('.sidebar-offcanvas').toggleClass('active')
+  }
 }
