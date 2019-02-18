@@ -125,3 +125,21 @@
 
 @import "../../assets/scss/admin/landing-screens/auth";
 @import "../../assets/scss/admin/landing-screens/error";
+
+.stretch-card{
+  .fas{
+    font-size: 22px;
+  }
+  .fa-comments{
+    color: #e65251;
+  }
+  .fa-users{
+    color:#ffaf00;
+  }
+  .fa-tags{
+    color:#00ce68;
+  }
+  .fa-tv{
+    color:#8862e0;
+  }
+}
