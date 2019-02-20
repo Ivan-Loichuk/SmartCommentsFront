@@ -25,6 +25,7 @@ import { AccommodationListComponent } from './admin/accommodation-list/accommoda
 import { AddAccommodationComponent } from './modal-windows/add-accommodation/add-accommodation.component';
 import { UsersComponent } from './admin/users/users.component';
 import { LoginComponent } from './admin/login/login.component';
+import { DelAccommodationComponent } from './modal-windows/del-accommodation/del-accommodation.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { LoginComponent } from './admin/login/login.component';
     AccommodationListComponent,
     AddAccommodationComponent,
     UsersComponent,
-    LoginComponent
+    LoginComponent,
+    DelAccommodationComponent
   ],
   imports: [
     BrowserModule,

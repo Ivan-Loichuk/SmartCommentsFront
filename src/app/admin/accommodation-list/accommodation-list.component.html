@@ -41,7 +41,7 @@
                           <td>support@mysite.com</td>
                           <td>
                               <i class="fas fa-edit"></i>
-                              <i class="fas fa-trash-alt"></i>
+                              <i class="fas fa-trash-alt" data-toggle="modal" data-target="#del-accommodation"></i>
                           </td>
                         </tr>
                       </tbody>
@@ -50,6 +50,8 @@
                 </div>
           </div>
         </div>
+        <!-- delete accommodation modal window -->
+        <app-modal-del-accommodation></app-modal-del-accommodation>
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
         <footer class="footer">
