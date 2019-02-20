@@ -27,6 +27,8 @@ import { UsersComponent } from './admin/users/users.component';
 import { LoginComponent } from './admin/login/login.component';
 import { DelAccommodationComponent } from './modal-windows/del-accommodation/del-accommodation.component';
 import { EditAccommodationComponent } from './modal-windows/edit-accommodation/edit-accommodation.component';
+import { DelUserComponent } from './modal-windows/del-user/del-user.component';
+import { EditUserComponent } from './modal-windows/edit-user/edit-user.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,9 @@ import { EditAccommodationComponent } from './modal-windows/edit-accommodation/e
     UsersComponent,
     LoginComponent,
     DelAccommodationComponent,
-    EditAccommodationComponent
+    EditAccommodationComponent,
+    DelUserComponent,
+    EditUserComponent
   ],
   imports: [
     BrowserModule,

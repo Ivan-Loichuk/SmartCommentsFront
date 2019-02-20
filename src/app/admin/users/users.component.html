@@ -37,8 +37,8 @@
                           <td>Venus</td>
                           <td>support@mysite.com</td>
                           <td>
-                              <i class="fas fa-edit"></i>
-                              <i class="fas fa-trash-alt"></i>
+                              <i class="fas fa-edit" data-toggle="modal" data-target="#edit-user"></i>
+                              <i class="fas fa-trash-alt" data-toggle="modal" data-target="#del-user"></i>
                           </td>
                         </tr>
                       </tbody>
@@ -47,6 +47,12 @@
                 </div>
           </div>
         </div>
+        <!-- delete user modal window -->
+        <app-modal-del-user></app-modal-del-user>
+
+        <!-- edit user modal window -->
+        <app-modal-edit-user></app-modal-edit-user>
+
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
         <footer class="footer">
